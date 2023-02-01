@@ -40,7 +40,6 @@ export class StateService {
     this.currentList = [...this.currentList.splice(1)]
     this.currentReportName = reportName
 
-    console.log({ header: this.header, list: this.currentList, name: this.currentReportName });
     this.emitChange()
   }
 }
