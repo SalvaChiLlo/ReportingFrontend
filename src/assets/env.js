@@ -2,5 +2,5 @@
   window['env'] = window['env'] || {};
 
   // Environment variables
-  window['env']['baseBackendURL'] = 'http://dev.int:8080';
+  window['env']['baseBackendURL'] = 'http://localhost:8080';
 })(this);
