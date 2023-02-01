@@ -1,0 +1,19 @@
+<div class="upload-form">
+  <div class="mb-3">
+    <label for="customersFile" class="form-label fw-bold">Customers File</label>
+    <input (change)="onFileSelectedCustomers($event)" class="form-control" type="file" id="customersFile" accept=".csv">
+  </div>
+  <div class="mb-3">
+    <label for="prodcutsFile" class="form-label fw-bold">Products File</label>
+    <input (change)="onFileSelectedProducts($event)" class="form-control" type="file" id="prodcutsFile" accept=".csv">
+  </div>
+  <div class="mb-3">
+    <label for="ordersFile" class="form-label fw-bold">Orders File</label>
+    <input (change)="onFileSelectedOrders($event)" class="form-control" type="file" id="ordersFile" accept=".csv">
+  </div>
+  <input (click)="submit()" class="btn btn-primary" [class.disabled] = "customers === null || products === null || orders === null" value="Submit">
+  
+  <div [style.display] = "error ? 'block' : 'none'" class="alert alert-danger" role="alert">
+    Se ha producido un error. {{errorMessage}}
+  </div>
+</div>
