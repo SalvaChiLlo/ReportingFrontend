@@ -10,6 +10,7 @@ RUN ng build
 # STAGE 2: Serve app with nginx
 FROM nginx:latest
 COPY  --from=build /usr/local/app/dist/reporting-frontend /usr/share/nginx/html
+COPY ./nginx.conf  /etc/nginx/conf.d/default.conf
 
 # Expose port 80
 EXPOSE 80
