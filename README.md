@@ -1,4 +1,17 @@
 # Reporting Frontend
+
+* [Reporting Frontend](#reporting-frontend)
+  * [Puesta en marcha](#puesta-en-marcha)
+    * [Modo "Desarrollo"](#modo-desarrollo)
+    * [Modo "Producción"](#modo-producción)
+  * [Detalles de la implementación](#detalles-de-la-implementación)
+    * [Componentes](#componentes)
+      * [UploadForm](#uploadform)
+      * [ResultsView](#resultsview)
+    * [Servicios](#servicios)
+      * [ReportingAPIService](#reportingapiservice)
+      * [StateService](#stateservice)
+
 El frontend de esta aplicación consta de: 
 * Formulario: 
   * Desde el cual se subirán los diferentes archivos de entrada
