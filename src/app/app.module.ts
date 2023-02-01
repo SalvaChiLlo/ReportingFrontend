@@ -12,7 +12,7 @@ import { ResultsViewComponent } from './results-view/results-view.component';
   declarations: [
     AppComponent,
     UpdloadFormComponent,
-    ResultsViewComponent
+    ResultsViewComponent,
   ],
   imports: [
     BrowserModule,

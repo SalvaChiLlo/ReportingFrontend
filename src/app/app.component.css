@@ -15,8 +15,8 @@
 }
 
 .viewContainer {
-  min-height: 90vh;
-  min-width: 95vw;
+  height: 90vh;
+  width: 95vw;
   background: linear-gradient(
     90deg,
     rgba(223, 223, 223, 0.8) 3%,
