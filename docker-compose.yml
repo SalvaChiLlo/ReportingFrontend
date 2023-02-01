@@ -1,0 +1,8 @@
+version: '3'
+services:
+  frontend:
+    image: salvachll/reporting-front-prueba
+    ports:
+      - 80:80
+    environment:
+      - BACKEND_BASE_URL=http://dev.int:8080

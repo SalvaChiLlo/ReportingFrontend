@@ -11,7 +11,7 @@ export class ReportingAPIService {
 
   sendFiles(customers: File | null, products: File | null, orders: File | null) {
     if (customers === null || products === null || orders === null) {
-      return;
+      return null;
     }
     const formData: FormData = new FormData();
     formData.append('customers', customers);
