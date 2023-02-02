@@ -53,7 +53,7 @@ docker-compose up -d
 
 \*_Para facilitar la implementación y obtener unos resultados visuales más consistentes, se ha optado por utilizar Bootstrap._
 
-La aplicación se consiste básicamente en **dos _Componentes_ y dos _Servicios_** mediante los cuales se logra completar la funcionalidad deseada.
+La aplicación consiste básicamente en **dos _Componentes_ y dos _Servicios_** mediante los cuales se logra completar la funcionalidad deseada.
 
 ### Componentes
 
