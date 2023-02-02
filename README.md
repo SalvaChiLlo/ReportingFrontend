@@ -3,7 +3,7 @@
 - [Reporting Frontend](#reporting-frontend)
   - [Puesta en marcha](#puesta-en-marcha)
     - [Modo "Desarrollo"](#modo-desarrollo)
-    - [Modo "Producción"](#modo-producción---docker)
+    - [Modo "Producción" - Docker](#modo-producción---docker)
   - [Detalles de la implementación](#detalles-de-la-implementación)
     - [Componentes](#componentes)
       - [UploadForm](#uploadform)
